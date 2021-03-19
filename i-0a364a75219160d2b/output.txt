@@ -1,0 +1,503 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------------< com.student:api >---------------------------
+[INFO] Building api 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:resources (default-resources) @ api ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ api ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:testResources (default-testResources) @ api ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory /home/ubuntu/root/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ api ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ api ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.student.api.ApiApplicationTests
+07:48:55.135 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+07:48:55.157 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+07:48:55.222 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.student.api.ApiApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+07:48:55.250 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.student.api.ApiApplicationTests], using SpringBootContextLoader
+07:48:55.264 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.student.api.ApiApplicationTests]: class path resource [com/student/api/ApiApplicationTests-context.xml] does not exist
+07:48:55.268 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.student.api.ApiApplicationTests]: class path resource [com/student/api/ApiApplicationTestsContext.groovy] does not exist
+07:48:55.273 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.student.api.ApiApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+07:48:55.275 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.student.api.ApiApplicationTests]: ApiApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+07:48:55.408 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.student.api.ApiApplicationTests]
+07:48:55.518 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/home/ubuntu/root/target/classes/com/student/api/ApiApplication.class]
+07:48:55.520 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.student.api.ApiApplication for test class com.student.api.ApiApplicationTests
+07:48:55.708 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.student.api.ApiApplicationTests]: using defaults.
+07:48:55.711 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener]
+07:48:55.772 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5ba88be8, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@56928307, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@3899782c, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1603cd68, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@9ebe38b, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4b23c30a, org.springframework.test.context.transaction.TransactionalTestExecutionListener@38089a5a, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@30e868be, org.springframework.test.context.event.EventPublishingTestExecutionListener@66c92293, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@332796d3, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4f0100a7, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@3cdf2c61, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@13ad5cd3, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@1c33c17b, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@5bf0fe62]
+07:48:55.790 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@32c726ee testClass = ApiApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@22f31dec testClass = ApiApplicationTests, locations = '{}', classes = '{class com.student.api.ApiApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@bae7dc0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@4b3fa0b3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@53ce1329, [ImportsContextCustomizer@34c01041 key = [org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.client.servlet.OAuth2ClientAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.resource.servlet.OAuth2ResourceServerAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityFilterAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@5677323c, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@4d154ccd, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@4145bad8, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@64485a47], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+07:48:55.916 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.4.2)
+
+2021-02-28 07:48:56.584  INFO 16639 --- [           main] com.student.api.ApiApplicationTests      : Starting ApiApplicationTests using Java 11.0.10 on ip-172-31-5-217 with PID 16639 (started by ubuntu in /home/ubuntu/root)
+2021-02-28 07:48:56.594  INFO 16639 --- [           main] com.student.api.ApiApplicationTests      : No active profile set, falling back to default profiles: default
+2021-02-28 07:48:58.133  INFO 16639 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-02-28 07:48:58.136  INFO 16639 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-02-28 07:48:58.165  INFO 16639 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20 ms. Found 0 JDBC repository interfaces.
+2021-02-28 07:48:58.186  INFO 16639 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-02-28 07:48:58.189  INFO 16639 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-28 07:48:58.201  INFO 16639 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2021-02-28 07:48:59.483  INFO 16639 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-28 07:48:59.559  INFO 16639 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-02-28 07:48:59.846  INFO 16639 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-28 07:49:00.116  INFO 16639 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-02-28 07:49:00.519  INFO 16639 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-02-28 07:49:00.581  INFO 16639 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-02-28 07:49:01.973  INFO 16639 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-28 07:49:01.990  INFO 16639 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-28 07:49:02.625  WARN 16639 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-28 07:49:03.504  INFO 16639 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-28 07:49:04.422  INFO 16639 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2021-02-28 07:49:04.424  INFO 16639 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-02-28 07:49:04.429  INFO 16639 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 4 ms
+2021-02-28 07:49:04.468  INFO 16639 --- [           main] com.student.api.ApiApplicationTests      : Started ApiApplicationTests in 8.537 seconds (JVM running for 10.887)
+
+MockHttpServletRequest:
+      HTTP Method = POST
+      Request URI = /api/v1/students
+       Parameters = {}
+          Headers = [Content-Type:"application/json;charset=UTF-8", Content-Length:"28"]
+             Body = {"id":3,"name":"AAAAAAAAAA"}
+    Session Attrs = {}
+
+Handler:
+             Type = com.student.api.controller.StudentController
+           Method = com.student.api.controller.StudentController#createStudent(Student)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = []
+     Content type = null
+             Body = 
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+MockHttpServletRequest:
+      HTTP Method = DELETE
+      Request URI = /api/v1/students/3
+       Parameters = {}
+          Headers = []
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = com.student.api.controller.StudentController
+           Method = com.student.api.controller.StudentController#deleteStudent(Long)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = []
+     Content type = null
+             Body = 
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /api/v1/students/3
+       Parameters = {}
+          Headers = []
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = com.student.api.controller.StudentController
+           Method = com.student.api.controller.StudentController#getStudent(Long)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = []
+     Content type = null
+             Body = 
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+MockHttpServletRequest:
+      HTTP Method = POST
+      Request URI = /api/v1/students
+       Parameters = {}
+          Headers = [Content-Type:"application/json;charset=UTF-8", Content-Length:"28"]
+             Body = {"id":1,"name":"AAAAAAAAAA"}
+    Session Attrs = {}
+
+Handler:
+             Type = com.student.api.controller.StudentController
+           Method = com.student.api.controller.StudentController#createStudent(Student)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = []
+     Content type = null
+             Body = 
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /api/v1/students/1
+       Parameters = {}
+          Headers = []
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = com.student.api.controller.StudentController
+           Method = com.student.api.controller.StudentController#getStudent(Long)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = []
+     Content type = null
+             Body = 
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+MockHttpServletRequest:
+      HTTP Method = POST
+      Request URI = /api/v1/students
+       Parameters = {}
+          Headers = [Content-Type:"application/json;charset=UTF-8", Content-Length:"28"]
+             Body = {"id":2,"name":"AAAAAAAAAA"}
+    Session Attrs = {}
+
+Handler:
+             Type = com.student.api.controller.StudentController
+           Method = com.student.api.controller.StudentController#createStudent(Student)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = []
+     Content type = null
+             Body = 
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /api/v1/students/2
+       Parameters = {}
+          Headers = []
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = com.student.api.controller.StudentController
+           Method = com.student.api.controller.StudentController#getStudent(Long)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = []
+     Content type = null
+             Body = 
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+MockHttpServletRequest:
+      HTTP Method = POST
+      Request URI = /api/v1/students
+       Parameters = {}
+          Headers = [Content-Type:"application/json;charset=UTF-8", Content-Length:"28"]
+             Body = {"id":4,"name":"AAAAAAAAAA"}
+    Session Attrs = {}
+
+Handler:
+             Type = com.student.api.controller.StudentController
+           Method = com.student.api.controller.StudentController#createStudent(Student)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = []
+     Content type = null
+             Body = 
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+MockHttpServletRequest:
+      HTTP Method = POST
+      Request URI = /api/v1/students
+       Parameters = {}
+          Headers = [Content-Type:"application/json;charset=UTF-8", Content-Length:"28"]
+             Body = {"id":5,"name":"AAAAAAAAAA"}
+    Session Attrs = {}
+
+Handler:
+             Type = com.student.api.controller.StudentController
+           Method = com.student.api.controller.StudentController#createStudent(Student)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = []
+     Content type = null
+             Body = 
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /api/v1/students
+       Parameters = {}
+          Headers = []
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = com.student.api.controller.StudentController
+           Method = com.student.api.controller.StudentController#getAllStudents()
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = []
+     Content type = null
+             Body = 
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+[ERROR] Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 10.41 s <<< FAILURE! - in com.student.api.ApiApplicationTests
+[ERROR] deleteStudentTest  Time elapsed: 0.687 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<204> but was:<200>
+	at com.student.api.ApiApplicationTests.deleteStudentTest(ApiApplicationTests.java:86)
+
+[ERROR] createStudentTest  Time elapsed: 0.055 s  <<< FAILURE!
+java.lang.AssertionError: No value at JSON path "$.name"
+	at com.student.api.ApiApplicationTests.createStudentTest(ApiApplicationTests.java:51)
+Caused by: java.lang.IllegalArgumentException: json can not be null or empty
+	at com.student.api.ApiApplicationTests.createStudentTest(ApiApplicationTests.java:51)
+
+[ERROR] updateStudentTest  Time elapsed: 0.044 s  <<< FAILURE!
+java.lang.AssertionError: No value at JSON path "$.name"
+	at com.student.api.ApiApplicationTests.updateStudentTest(ApiApplicationTests.java:63)
+Caused by: java.lang.IllegalArgumentException: json can not be null or empty
+	at com.student.api.ApiApplicationTests.updateStudentTest(ApiApplicationTests.java:63)
+
+[ERROR] getAllStudentTest  Time elapsed: 0.067 s  <<< FAILURE!
+java.lang.AssertionError: Expecting the test to return a list with 2 students but the list is empty
+	at com.student.api.ApiApplicationTests.getAllStudentTest(ApiApplicationTests.java:104)
+Caused by: java.lang.AssertionError: No value at JSON path "$.[*].id"
+	at com.student.api.ApiApplicationTests.getAllStudentTest(ApiApplicationTests.java:101)
+Caused by: java.lang.IllegalArgumentException: json can not be null or empty
+	at com.student.api.ApiApplicationTests.getAllStudentTest(ApiApplicationTests.java:101)
+
+2021-02-28 07:49:05.499  INFO 16639 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-28 07:49:05.502  INFO 16639 --- [extShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-02-28 07:49:05.513  INFO 16639 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-02-28 07:49:05.523  INFO 16639 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   ApiApplicationTests.createStudentTest:51 No value at JSON path "$.name"
+[ERROR]   ApiApplicationTests.deleteStudentTest:86 Status expected:<204> but was:<200>
+[ERROR]   ApiApplicationTests.getAllStudentTest:104 Expecting the test to return a list with 2 students but the list is empty
+[ERROR]   ApiApplicationTests.updateStudentTest:63 No value at JSON path "$.name"
+[INFO] 
+[ERROR] Tests run: 4, Failures: 4, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  15.644 s
+[INFO] Finished at: 2021-02-28T07:49:05Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.22.2:test (default-test) on project api: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /home/ubuntu/root/target/surefire-reports for the individual test results.
+[ERROR] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

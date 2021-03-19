@@ -1,0 +1,246 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------------< com.wecp:cpm >----------------------------
+[INFO] Building cpm 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:resources (default-resources) @ cpm ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ cpm ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:testResources (default-testResources) @ cpm ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory /home/ubuntu/root/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ cpm ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ cpm ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.wecp.cpm.CpmApplicationTests
+07:34:38.112 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+07:34:38.137 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+07:34:38.203 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.wecp.cpm.CpmApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+07:34:38.224 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.wecp.cpm.CpmApplicationTests], using SpringBootContextLoader
+07:34:38.230 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.wecp.cpm.CpmApplicationTests]: class path resource [com/wecp/cpm/CpmApplicationTests-context.xml] does not exist
+07:34:38.232 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.wecp.cpm.CpmApplicationTests]: class path resource [com/wecp/cpm/CpmApplicationTestsContext.groovy] does not exist
+07:34:38.233 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.wecp.cpm.CpmApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+07:34:38.235 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.wecp.cpm.CpmApplicationTests]: CpmApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+07:34:38.360 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.wecp.cpm.CpmApplicationTests]
+07:34:38.460 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/home/ubuntu/root/target/classes/com/wecp/cpm/CpmApplication.class]
+07:34:38.465 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.wecp.cpm.CpmApplication for test class com.wecp.cpm.CpmApplicationTests
+07:34:38.654 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.wecp.cpm.CpmApplicationTests]: using defaults.
+07:34:38.655 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener]
+07:34:38.722 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@a3d9978, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@61544ae6, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@4b41dd5c, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@3b96c42e, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@5d066c7d, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1e461e41, org.springframework.test.context.transaction.TransactionalTestExecutionListener@5ba88be8, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@56928307, org.springframework.test.context.event.EventPublishingTestExecutionListener@3899782c, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@1603cd68, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@9ebe38b, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4b23c30a, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@38089a5a, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@30e868be, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@66c92293]
+07:34:38.735 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@484094a5 testClass = CpmApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@38234a38 testClass = CpmApplicationTests, locations = '{}', classes = '{class com.wecp.cpm.CpmApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@74751b3, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@4b3fa0b3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@3c7f66c4, [ImportsContextCustomizer@63fbfaeb key = [org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.client.servlet.OAuth2ClientAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.resource.servlet.OAuth2ResourceServerAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityFilterAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3012646b, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@7b36aa0c, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@1a942c18, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@436e852b], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+07:34:38.853 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.4.2)
+
+2021-02-28 07:34:39.495  INFO 23407 --- [           main] com.wecp.cpm.CpmApplicationTests         : Starting CpmApplicationTests using Java 11.0.10 on ip-172-31-20-92 with PID 23407 (started by ubuntu in /home/ubuntu/root)
+2021-02-28 07:34:39.503  INFO 23407 --- [           main] com.wecp.cpm.CpmApplicationTests         : No active profile set, falling back to default profiles: default
+2021-02-28 07:34:41.028  INFO 23407 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-02-28 07:34:41.030  INFO 23407 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-02-28 07:34:41.090  INFO 23407 --- [           main] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.wecp.cpm.repository.UserRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2021-02-28 07:34:41.092  INFO 23407 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 52 ms. Found 0 JDBC repository interfaces.
+2021-02-28 07:34:41.127  INFO 23407 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-02-28 07:34:41.131  INFO 23407 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-28 07:34:41.202  INFO 23407 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 66 ms. Found 1 JPA repository interfaces.
+2021-02-28 07:34:42.478  INFO 23407 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-28 07:34:42.558  INFO 23407 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-02-28 07:34:42.801  INFO 23407 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-28 07:34:43.034  INFO 23407 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-02-28 07:34:43.406  INFO 23407 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-02-28 07:34:43.467  INFO 23407 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+Hibernate: create table user (id bigint not null, username varchar(255), primary key (id))
+Hibernate: create sequence hibernate_sequence start with 1 increment by 1
+2021-02-28 07:34:44.826  INFO 23407 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-28 07:34:44.844  INFO 23407 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-28 07:34:46.414  WARN 23407 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-28 07:34:47.392  INFO 23407 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-28 07:34:48.238  INFO 23407 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2021-02-28 07:34:48.239  INFO 23407 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-02-28 07:34:48.241  INFO 23407 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2021-02-28 07:34:48.287  INFO 23407 --- [           main] com.wecp.cpm.CpmApplicationTests         : Started CpmApplicationTests in 9.418 seconds (JVM running for 11.66)
+Hibernate: call next value for hibernate_sequence
+Hibernate: insert into user (username, id) values (?, ?)
+
+MockHttpServletRequest:
+      HTTP Method = POST
+      Request URI = /api/v1/user
+       Parameters = {}
+          Headers = [Content-Type:"application/json;charset=UTF-8", Content-Length:"25"]
+             Body = {"username":"AAAAAAAAAA"}
+    Session Attrs = {}
+
+Handler:
+             Type = com.wecp.cpm.controller.UserController
+           Method = com.wecp.cpm.controller.UserController#createUser(User)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = []
+     Content type = null
+             Body = 
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+Hibernate: call next value for hibernate_sequence
+Hibernate: insert into user (username, id) values (?, ?)
+
+MockHttpServletRequest:
+      HTTP Method = POST
+      Request URI = /api/v1/user
+       Parameters = {}
+          Headers = [Content-Type:"application/json;charset=UTF-8", Content-Length:"25"]
+             Body = {"username":"AAAAAAAAAA"}
+    Session Attrs = {}
+
+Handler:
+             Type = com.wecp.cpm.controller.UserController
+           Method = com.wecp.cpm.controller.UserController#createUser(User)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = []
+     Content type = null
+             Body = 
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+Hibernate: call next value for hibernate_sequence
+Hibernate: insert into user (username, id) values (?, ?)
+
+MockHttpServletRequest:
+      HTTP Method = POST
+      Request URI = /api/v1/user
+       Parameters = {}
+          Headers = [Content-Type:"application/json;charset=UTF-8", Content-Length:"25"]
+             Body = {"username":"AAAAAAAAAA"}
+    Session Attrs = {}
+
+Handler:
+             Type = com.wecp.cpm.controller.UserController
+           Method = com.wecp.cpm.controller.UserController#createUser(User)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = []
+     Content type = null
+             Body = 
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+[ERROR] Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 11.149 s <<< FAILURE! - in com.wecp.cpm.CpmApplicationTests
+[ERROR] getAllUserTest  Time elapsed: 0.661 s  <<< ERROR!
+com.fasterxml.jackson.databind.exc.MismatchedInputException: 
+No content to map due to end-of-input
+ at [Source: (String)""; line: 1, column: 0]
+	at com.wecp.cpm.CpmApplicationTests.getAllUserTest(CpmApplicationTests.java:70)
+
+[ERROR] createUserTest  Time elapsed: 0.043 s  <<< ERROR!
+com.fasterxml.jackson.databind.exc.MismatchedInputException: 
+No content to map due to end-of-input
+ at [Source: (String)""; line: 1, column: 0]
+	at com.wecp.cpm.CpmApplicationTests.createUserTest(CpmApplicationTests.java:42)
+
+[ERROR] deleteUserTest  Time elapsed: 0.035 s  <<< ERROR!
+com.fasterxml.jackson.databind.exc.MismatchedInputException: 
+No content to map due to end-of-input
+ at [Source: (String)""; line: 1, column: 0]
+	at com.wecp.cpm.CpmApplicationTests.deleteUserTest(CpmApplicationTests.java:54)
+
+2021-02-28 07:34:49.174  INFO 23407 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-28 07:34:49.177  INFO 23407 --- [extShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-02-28 07:34:49.182  INFO 23407 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-02-28 07:34:49.195  INFO 23407 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Errors: 
+[ERROR]   CpmApplicationTests.createUserTest:42 » MismatchedInput No content to map due ...
+[ERROR]   CpmApplicationTests.deleteUserTest:54 » MismatchedInput No content to map due ...
+[ERROR]   CpmApplicationTests.getAllUserTest:70 » MismatchedInput No content to map due ...
+[INFO] 
+[ERROR] Tests run: 3, Failures: 0, Errors: 3, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  16.676 s
+[INFO] Finished at: 2021-02-28T07:34:49Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.22.2:test (default-test) on project cpm: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /home/ubuntu/root/target/surefire-reports for the individual test results.
+[ERROR] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

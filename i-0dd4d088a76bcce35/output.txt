@@ -1,0 +1,38 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------------< com.student:api >---------------------------
+[INFO] Building api 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:resources (default-resources) @ api ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ api ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 4 source files to /home/ubuntu/root/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/root/src/main/java/com/student/api/controller/StudentController.java:[69,114] ')' expected
+[ERROR] /home/ubuntu/root/src/main/java/com/student/api/controller/StudentController.java:[69,115] illegal start of expression
+[INFO] 2 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.429 s
+[INFO] Finished at: 2021-02-28T09:12:51Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.1:compile (default-compile) on project api: Compilation failure: Compilation failure: 
+[ERROR] /home/ubuntu/root/src/main/java/com/student/api/controller/StudentController.java:[69,114] ')' expected
+[ERROR] /home/ubuntu/root/src/main/java/com/student/api/controller/StudentController.java:[69,115] illegal start of expression
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
